@@ -18,5 +18,5 @@ function authMiddleware(req,res,next){
         return res.status(500).json({message:err});
     }
 }
-
+// exporting the authontication
 module.exports=authMiddleware;
