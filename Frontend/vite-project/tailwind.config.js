@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {},
   },
+  //plugins should be valid as it will be throuw an error
   plugins: [],
 }
 
